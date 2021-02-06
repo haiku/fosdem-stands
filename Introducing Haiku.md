@@ -10,7 +10,7 @@ but will also take advantage of newer (and faster) hardware.
 We are currently in beta phase, which means all features from BeOS (and more) are implemented, and
 the current focus is on polishing the user experience and fixing remaining bugs.
 
-![Haiku screenshot](https://www.haiku-os.org/files/apps-prefs_preview.png)
+![Haiku screenshot](/stands/haiku/screenshot.jpg)
 
 [More information on Haiku website](https://www.haiku-os.org)
 
