@@ -4,6 +4,8 @@ Since the last FOSDEM in 2020, Haiku has had a major release: Beta 2 in 2020. Ou
 
 Notably, 900 tickets mainly consisting of bug reports were closed during this release cycle.
 
+![Haiku stand](/stands/haiku/stand.jpg)
+
 ## Highlights from Beta 2
 
 - Improved HiDPI support
