@@ -5,19 +5,20 @@ description: Haiku is an open-source operating system that specifically targets 
 layout: stand
 logo: stands/haiku/logo.png
 new_this_year: |
-  <p>Since last FOSDEM we had a Beta2 release last June which fixes 900 bugs from Beta1 and adds 2800 commits to it:</p>
+  <p>Since last FOSDEM we had a Beta3 release last July which fixes 251 bugs from Beta2 and adds 1248 commits to it:</p>
   <ol>
-    <li>It brings HiDPI support.</li>
-    <li>During GSoC2020 the Input Preferences were reworked a lot to handle multiple devices.</li>
-    <li>The Installation now supports excluding optional packages that are included on the installation medium.</li>
-    <li>And there is even an upgrade path available from Haiku R1 Beta 1 to Beta 2 so you don't have to reinstall.</li>
-    <li>Hardware support is also improved, with NVMe drives, and improvements on XHCI.</li>
-    <li>Documentation was also improved, like on the layout support.</li>
+    <li>The installation process is now much smoother.</li>
+    <li>Package management received performance and stability improvement, and can now resume interrupted downloads.</li>
+    <li>We switched to Python 3.7 as default.</li>
+    <li>The user interface received improvements on dark color theme, scaling, and localization.</li>
+    <li>The font overlay and fallback system was fixed.</li>
+    <li>WebPositive automatically uses dark mode according to the current system color scheme.</li>
     <li>The WebKit version used by WebPositive was updated.</li>
-    <li>Various applications were also ported or updated like LibreOffice, Telegram, Okular, Krita, AQEMU and some more games.</li>
-    <li>And new applications are also written, like Medo, a video editor.</li>
-    <li>We also ran a system sounds contest, and started a wallpaper contest.</li>
-    <li>While we focus on x86, ports to other architectures is still ongoing, and might give some interesting updates in the coming year.</li>
+    <li>A BeControlLook allows apps to match the BeOS R5 interface closely.</li>
+    <li>The POSIX compatibility received many fixes and additions, including mlock/munlock, posix_fallocate and ppoll calls.</li>
+    <li>Some optimizations were done in frequently used API calls.</li>
+    <li>Czech translation is now available, making Haiku available in 28 languages.</li>
+    <li>We improved several drivers, and added support for SD/MMC on PCI (SDHCI).</li>
   </ol>
 showcase: |
   <p>We will be demonstrating all the neat features that makes Haiku special for us: indexed metadata in the filesystem, x-ray navigation, sliding tabs and  window grouping.</p>
