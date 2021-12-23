@@ -1,20 +1,22 @@
 # What's New
 
-Since the last FOSDEM in 2020, Haiku has had a major release: Beta 2 in 2020. Our second beta release, the first being in 2018, Beta 2 builds upon the improvements delivered in Beta 1 and brings a stack of improvements to Haiku.
+Since the last FOSDEM in 2021, Haiku has had a major release: Beta 3 in 2021. Our third beta release, the first being in 2018, Beta 3 builds upon the improvements delivered in Beta 2 and brings a stack of improvements to Haiku.
 
-Notably, 900 tickets mainly consisting of bug reports were closed during this release cycle.
+Notably, 251 tickets mainly consisting of bug reports were closed during this release cycle.
 
 ![Haiku stand](/stands/haiku/stand.jpg)
 
-## Highlights from Beta 2
+## Highlights from Beta 3
 
-- Improved HiDPI support
-- Deskbar improvements, with a new mini mode as well as improvements to the "auto-raise" mode
-- A new input preferences consisting of Mouse, Keyboard, Touchpad and Joystick preferences
-- WebPositive now uses a newer version of WebKit, and contains a number of fixes to the Haiku backend which help fix crashes as well as significantly reducing its memory usage.
-- Even more ported software
-- Installation improvements - Installer now gives you the option to exclude optional packages when installing Haiku, plus DriveSetup now displays more information about connected drives.
-- NVMe support
-- Significantly enhanced and stabilized XHCI (USB3) support
-- Kernel stabilization and performance improvements - with quite a lot of reproducible (and less reproducible) kernel crashes resolved, and some low-hanging fruit related to system performance resolved. **The system is now noticeably more stable than it was at the time of Beta 1.**
-- Emulated Meta-key in Terminal
+- The installation process is now much smoother.
+- Package management received performance and stability improvement, and can now resume interrupted downloads.
+- We switched to Python 3.7 as default.
+- The user interface received improvements on dark color theme, scaling, and localization.
+- The font overlay and fallback system was fixed.
+- WebPositive automatically uses dark mode according to the current system color scheme.
+- The WebKit version used by WebPositive was updated.
+- A BeControlLook allows apps to match the BeOS R5 interface closely.
+- The POSIX compatibility received many fixes and additions, including `mlock`/`munlock`, `posix_fallocate` and `ppoll` calls.
+- Some optimizations were done in frequently used API calls.
+- Czech translation is now available, making Haiku available in 28 languages.
+- We improved several drivers, and added support for SD/MMC on PCI (SDHCI).
