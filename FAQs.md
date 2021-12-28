@@ -14,6 +14,8 @@ Haiku is not a Linux distribution, nor does it use the Linux kernel.  Linux-bas
 
 The main target for Haiku R1 is the x86 (Intel, AMD, and compatible) platform. There are [ports to other platforms underway (external link)](https://www.haiku-os.org/guides/building/port_status), such as PowerPC, Sparc, and ARM. However, it is not clear whether these will be supported or not. What platforms we support in the future will heavily depend on the availability of resources to support their development.
 
+The RISC-V port is currently available for testing in the form of nightly build images.
+
 ### **What are the minimum hardware requirements to run Haiku?**
 
 The x86 32-bit release of Haiku will run on a Pentium or better CPU with 256 MiB of RAM (as long as virtual memory is activated), 1,5 GiB of storage space and a VESA compliant video card.
@@ -24,13 +26,14 @@ However, for a satisfactory user experience, we recommend **at least** a Penti
 
 Most of the Haiku code is released under the very liberal [MIT License](https://opensource.org/licenses/mit-license.php). Some third party components (e.g.: some media codecs, libraries, etc.) may use other licenses.  The Haiku source tree has very few ported applications, and with the advent of package management, even these are being migrated out of the tree. For most applications it is preferable that their Haiku port is maintained in the original vendor's source repository. Third party libraries are usually only included when they are used by components (applications, libraries) we consider essential. Kernel drivers for hardware support, on the other hand, are almost always welcome.  ([https://www.haiku-os.org/development/faq#acceptable-licenses](https://www.haiku-os.org/development/faq#acceptable-licenses))
 
-### Will there be a 64-bit version of Haiku?
+### Is there a 64-bit version of Haiku?
 
-Yes. For R1 we are targeting two architectures, 32-bit x86 (i586 and newer) and 64-bit x86_64.  Regarding GCC, we use GCC 8 for most things (i.e. 64-bit and most of the 32-bit OS)., while GCC2 is used for BeOS compatibility.
+Yes. For R1 we are targeting two architectures, 32-bit x86 (i586 and newer) and 64-bit x86_64.
+Regarding GCC, we use GCC 11 for most things (i.e. 64-bit and most of the 32-bit OS)., while GCC2 is used for BeOS compatibility.
 
-The 32-bit release is compatible with the BeOS at a binary and API level (hybrid GCC2 / GCC 8). The 32-bit Haiku release can run most BeOS applications without modification or recompiling.
+The 32-bit release is compatible with BeOS applications at a binary and API level (hybrid GCC2 / GCC11). The 32-bit Haiku release can run most BeOS applications without modification or recompiling.
 
-The 64-bit release is not binary compatible with BeOS (GCC 8), but still enjoys compatibility with the powerful BeOS API.
+The 64-bit release is not binary compatible with BeOS (GCC11), but still enjoys compatibility with the powerful BeOS API.
 
 ### What is the goal of Haiku?
 

@@ -20,8 +20,15 @@ new_this_year: |
     <li>Czech translation is now available, making Haiku available in 28 languages.</li>
     <li>We improved several drivers, and added support for SD/MMC on PCI (SDHCI).</li>
   </ol>
+  <p>The RISC-V port is now booting to desktop and has nightly images available.</p>
+  <p>We hired one of our developers to work full time on the operating system. Consider
+     <a href="https://haiku-inc.org/donate">donating (external link)</a> to support this in the
+     long term.</p>
+  <p>A partnership with <a href="https://freewear.org/Haiku">Freewear.org (external link)</a> allows
+     us to provide new merchandise with a clear indication of hom much money gets to Haiku. This
+     includes limited edition T-Shirts celebrating 20 years of existence for Haiku!</p>
 showcase: |
-  <p>We will be demonstrating all the neat features that makes Haiku special for us: indexed metadata in the filesystem, x-ray navigation, sliding tabs and  window grouping.</p>
+  <p>We will be demonstrating all the neat features that makes Haiku special for us: indexed metadata in the filesystem, x-ray navigation, sliding tabs and window grouping.</p>
   <p>We also want to hear from people testing Haiku, how it worked for them, or not. We will guide you to create bug reports.</p>
   <p>We will walk
    curious people into installing Haiku in a VM or on real hardware.</p>
@@ -32,9 +39,7 @@ showcase: |
    to program their own application, or write a recipe for HaikuPorter to port an
    existing one.</p>
   <p>And you'll see the faces of some coders you maybe already know
-   from the IRC channels.</p
-  <p>Oh, and while we won't be able to get your DVDs
-   hand-to-hand, we still have some to ship :-)</p>
+   from the IRC channels.</p>
 themes:
 - Operating systems
 title: Haiku

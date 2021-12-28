@@ -20,3 +20,11 @@ Notably, 251 tickets mainly consisting of bug reports were closed during this re
 - Some optimizations were done in frequently used API calls.
 - Czech translation is now available, making Haiku available in 28 languages.
 - We improved several drivers, and added support for SD/MMC on PCI (SDHCI).
+
+## Other news
+
+- For the first time since 2014, we have a long term contract for a full-time developer. Waddlesplash
+  is working on various areas of the operating system, ranging from the USB stack to an X11
+  compatibility layer to run more Linux/BSD applications.
+- For the first time ever, the Haiku desktop is booting on non-x86 hardware thanks to the efforts
+  from X512 to bring up the RISC-V port. There are ongoing efforts for the ARM port as well.
