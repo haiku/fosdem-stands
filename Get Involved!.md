@@ -4,7 +4,7 @@ Anyone can help Haiku. If you love what Haiku is all about, you can get involved
 
 ## Donations
 
-Donations help Haiku keep going - as an open-source project, our only source of income is donations, and these help us cover operational costs (i.e. web hosting) as well as other expenses like expenditure for open-source events. 
+Donations help Haiku keep going - as an open-source project, our only source of income is donations, and these help us cover operational costs (i.e. web hosting) as well as other expenses like expenditure for open-source events. [You can donate to Haiku here.](https://www.haiku-inc.org/donate/)
 
 We really appreciate any and all donations - any amount will make a difference! 
 
@@ -18,11 +18,11 @@ Here's a brief run down of some of the help we could use:
 
 ### Bug Reports and Testing
 
-This is the quickest and easiest way to help us out. Simply use Haiku and report any problems or issues you encounter using the Bug Tracker. Make sure you include enough information (i.e. what hardware are you using, what version of Haiku are you running etc.)
+This is the quickest and easiest way to help us out. Simply use Haiku and report any problems or issues you encounter using the [Bug Tracker](https://dev.haiku-os.org). Make sure you include enough information (i.e. what hardware are you using, what version of Haiku are you running etc.)
 
 ### **Forum Support**
 
-The Haiku forums are one of the first stops for people wanting to submit ideas and to ask for help about various Haiku-related problems. This does not necessarily involve lots of time, but people with knowledge of Haiku and a desire to help others are desirable in this line of work.
+The [Haiku forums](https://discuss.haiku-os.org) are one of the first stops for people wanting to submit ideas and to ask for help about various Haiku-related problems. This does not necessarily involve lots of time, but people with knowledge of Haiku and a desire to help others are desirable in this line of work.
 
 We also have an International section where users post in languages other than English. 
 

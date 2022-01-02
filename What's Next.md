@@ -2,7 +2,7 @@
 
 We are steaming ahead towards the next major release - Beta 4. Like Beta 3 it will bring about more improvements, more software and more bug fixes. 
 
-Currently we expect Beta 4 to be released sometime in 2022.
+Currently we expect Beta 4 to be released sometime this year.
 
 ## Beta 4 and Onwards
 
@@ -10,8 +10,8 @@ R1, for those who don't know, is a full stable release of Haiku. The current pla
 Beta 4 and then start a new release cycle for Beta 5, where the developers will select issues and
 tasks filed in the bug tracker under the "R1 milestone" to include in Beta 4. This process will be
 repeated for any consequent Beta releases until all the issues filed under the "R1" milestone on
-our bug tracker have been closed. Ideally, the developer team is aiming for yearly releases starting
-with Beta 3, thus Beta 4 is estimated to be released some time next year - 2022.
+our bug tracker have been closed. Ideally, the developer team is aiming for yearly releases, thus 
+Beta 4 is estimated to be released sometime this year. [Keep an eye out on the Haiku website for any updates!](https://haiku-os.org)
 
 A voting system on the bugtracker allows everyone to help priorize the issues for these next beta
 releases.
