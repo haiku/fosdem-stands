@@ -9,7 +9,7 @@ new_this_year: |
   <ol>
     <li>The installation process is now much smoother.</li>
     <li>Package management received performance and stability improvement, and can now resume interrupted downloads.</li>
-    <li>We switched to Python 3.7 as default.</li>
+    <li>We switched to Python 3.7 as the default Python version.</li>
     <li>The user interface received improvements on dark color theme, scaling, and localization.</li>
     <li>The font overlay and fallback system was fixed.</li>
     <li>WebPositive automatically uses dark mode according to the current system color scheme.</li>
