@@ -34,3 +34,18 @@ applications, but unfortunately those are on the backlog due to the lack of time
 available. **Any individuals wishing to help out with these tasks are more than welcome to**, and
 are advised to send an email to the Haiku mailing lists at [https://www.freelists.org/list/haiku](https://www.freelists.org/list/haiku)
 or post a message on the forums at [discuss.haiku-os.org](http://discuss.haiku-os.org)
+
+## Adding more applications
+
+We recently have a new GTK port, which opens the way to porting a lot of existing applications.
+A few major ones such as GIMP and Inkscape already made their way to our software repository,
+although in an experimental state so far.
+
+A Wine port is also in progress, which means even more applications to run.
+
+That being said, we hope to also see more Haiku-specific native applications to complement this,
+and use the system to its full potential.
+
+Modern applications often need 3D acceleration, and great progress has been made by X512, who
+used parts of the Linux Radeon driver, running in userspace, to get accelerated Vulkan running on
+Haiku. This is still work in progress, but we hope to integrate it in one of the next releases.

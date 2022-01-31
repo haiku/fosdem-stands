@@ -27,3 +27,4 @@ Notably, 251 tickets mainly consisting of bug reports were closed during this re
   is working on various areas of the operating system, ranging from the USB stack to an X11 compatibility layer to run more Linux/BSD applications.
 - For the first time ever, [the Haiku desktop is booting on non-x86 hardware thanks to the efforts
   from X512 of porting Haiku to RISC-V](https://www.haiku-os.org/blog/kallisti5/2021-11-07_booting_our_risc-v_images/). There are ongoing efforts for the ARM port as well.
+- An X11 compatibility layer allows to recompile X11 applications and libraries with few modifications. This allowed us to get a working GTK port, for example.
